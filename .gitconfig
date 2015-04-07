@@ -1,0 +1,34 @@
+﻿[user]
+	name = Yawar Amin
+	email = yawar.amin@gmail.com
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[color]
+	ui = auto
+[color "status"]
+  added = blue
+  changed = green
+[sendemail]
+	smtpserver = smtp.gmail.com
+	smtpserverport = 587
+	smtpencryption = tls
+	smtpuser = yawar.amin@gmail.com
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	lol = log --graph --abbrev-commit --decorate --all --pretty=oneline
+[core]
+	autocrlf = false
+[diff]
+	guitool = kdiff3
+[branch]
+	autosetupmerge = always
+	autosetuprebase = always
+[push]
+	default = upstream
+[gui]
+	commitmsgwidth = 72
+	fontdiff = -family Consolas -size 10 -weight normal -slant roman -underline 0 -overstrike 0
+
