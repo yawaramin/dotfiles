@@ -19,9 +19,6 @@ if has("multi_byte")
   set fileencodings=ucs-bom,utf-8,latin1
 endif
 
-" This will need to be set correctly on each computer.
-"set dir=C:/Users/Yawar/AppData/Local/Temp
-
 " These require the Vim indent guides plugin.
 let g:indent_guides_guide_size = 1
 let g:indent_guides_enable_on_vim_startup = 0
@@ -31,15 +28,11 @@ let g:indent_guides_enable_on_vim_startup = 0
 set clipboard=unnamed
 
 set dir=~/tmp
-set lines=41
-set columns=153
-set gfn=InputMonoCondensed:h15
-set ff=unix
 set guicursor+=a:blinkon0
 set noshowmode
 set hidden
 set ru
-set rulerformat=%l,%c%V,%{&tw}%=%P
+set rulerformat=%l,%c%V/%{&tw}%=%P
 set noeol
 set et
 set ts=2
@@ -97,14 +90,11 @@ nnoremap V :w<CR>
 set background=dark
 hi ColorColumn ctermbg=black
 syntax on
-syntax region markdownFold start="^\z(#\+\) " end="\(^#\(\z1#*\)\@!#*[^#]\)\@=" transparent fold
 
 autocmd Filetype text set tw=72
 autocmd Filetype gitcommit set tw=72
 autocmd BufEnter *.md setlocal ft=markdown
 autocmd BufEnter *.md setlocal tw=72
-autocmd BufEnter *.md setlocal fdm=syntax
-autocmd BufEnter *.clj setlocal ft=lisp
 autocmd Filetype python iabbrev <buffer> \ <BS>lambda
 
 " This requires the Solarized plugin.
