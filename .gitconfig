@@ -19,6 +19,7 @@
 	st = status
 	ci = commit
 	lol = log --graph --abbrev-commit --decorate --all --pretty=oneline
+	pf = push --force-with-lease
 [core]
 	autocrlf = false
 [diff]
@@ -30,5 +31,4 @@
 	default = upstream
 [gui]
 	commitmsgwidth = 72
-	fontdiff = -family Consolas -size 10 -weight normal -slant roman -underline 0 -overstrike 0
 
