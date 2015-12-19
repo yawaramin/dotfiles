@@ -3,18 +3,13 @@
 # make local customisations on any specific system later on in the
 # .bashrc.
 
-export PS1="$ "
 export PATH=$PATH:~/bin
 export GUILE_LOAD_PATH=$GUILE_LOAD_PATH:~/guile
 export EDITOR=vim
 
-alias st='git status'
-
-todo() {
-  git checkout -b $1
-  git commit --allow-empty -m "TODO: $2"
-  git checkout -
-}
+alias s='git status'
+alias d='git diff'
+alias l='git lol'
 
 # vim:set ft=sh:
 
