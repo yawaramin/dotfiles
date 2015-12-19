@@ -1,3 +1,4 @@
+" Must install Tim Pope's Pathogen first.
 execute pathogen#infect()
 
 function! ToggleTextWidth()
@@ -82,10 +83,10 @@ nnoremap <Leader>s <C-w>s
 nnoremap <Leader>t :tabnew<CR>
 nnoremap <Leader>v :vsplit<CR>
 nnoremap <Leader>w :call ToggleTextWidth()<CR>
+nnoremap <Leader>z :w<CR>
 nnoremap <C-Tab> :tabnext<CR>
 nnoremap ; :
 nnoremap Q gqap
-nnoremap V :w<CR>
 
 set background=dark
 hi ColorColumn ctermbg=black
