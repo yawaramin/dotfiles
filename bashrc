@@ -3,13 +3,12 @@
 # make local customisations on any specific system later on in the
 # .bashrc.
 
-export PATH=$PATH:~/bin
-export GUILE_LOAD_PATH=$GUILE_LOAD_PATH:~/guile
+export PATH=~/bin:$PATH
 export EDITOR=vim
 
-alias s='git status'
-alias d='git diff'
-alias l='git lol'
+alias s="git status"
+alias d="git diff"
+alias l="git lol"
 
 # vim:set ft=sh:
 
