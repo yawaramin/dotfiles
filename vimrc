@@ -67,11 +67,11 @@ nnoremap <Leader>a gg0vG$
 nnoremap <Leader>b :ls<CR>
 nnoremap <Leader>c <C-w>c
 nnoremap <Leader>cd :cd 
-nnoremap <Leader>d :'a,.<<<CR>
+nnoremap <Leader>d :'a,.<<CR>
 nnoremap <Leader>dp :diffput\|diffupdate<CR>
 nnoremap <Leader>e a<C-R>=strftime("%Y-%m-%d %H:%M")<CR><CR><CR>
 nnoremap <Leader>h <C-w>h
-nnoremap <Leader>i :'a,.>><CR>
+nnoremap <Leader>i :'a,.><CR>
 nnoremap <Leader>j <C-w>j
 nnoremap <Leader>k <C-w>k
 nnoremap <Leader>l <C-w>l
