@@ -9,17 +9,14 @@
 [color "status"]
   added = blue
   changed = green
-[sendemail]
-	smtpserver = smtp.gmail.com
-	smtpserverport = 587
-	smtpencryption = tls
-	smtpuser = yawar.amin@gmail.com
 [alias]
 	co = checkout
 	st = status
 	ci = commit
 	lol = log --graph --abbrev-commit --decorate --all --pretty=oneline
 	pf = push --force-with-lease
+  heads = branch --no-merge
+  branches = branch -avv
 [core]
 	autocrlf = false
 [diff]
@@ -31,4 +28,6 @@
 	default = upstream
 [gui]
 	commitmsgwidth = 72
+
+# vim:set ft=gitconfig:
 

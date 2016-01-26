@@ -6,9 +6,11 @@
 export PATH=~/bin:$PATH
 export EDITOR=vim
 
+alias g=git
 alias s="git status"
 alias d="git diff"
 alias l="git lol"
+alias pf="git push --force-with-lease"
 
 # vim:set ft=sh:
 
