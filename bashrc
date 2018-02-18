@@ -5,12 +5,17 @@
 
 export PATH=~/bin:$PATH
 export EDITOR=vim
+export PS1="\u @ \[\e[36m\]\w\[\e[m\]\\n\$ "
 
 alias g=git
 alias s="git status"
 alias d="git diff"
 alias l="git lol"
 alias pf="git push --force-with-lease"
+
+# Interpreters that don't have built-in readline support
+alias poly="rlwrap poly" # PolyML
+alias csi="rlwrap csi" # Chicken Scheme
 
 # vim:set ft=sh:
 

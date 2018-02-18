@@ -1,6 +1,3 @@
-" Must install Tim Pope's Pathogen first.
-execute pathogen#infect()
-
 function! ToggleTextWidth()
   if &textwidth == 72
     set textwidth=0
