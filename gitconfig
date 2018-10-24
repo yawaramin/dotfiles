@@ -10,11 +10,12 @@
   added = blue
   changed = green
 [alias]
-	co = checkout
-	st = status
-	ci = commit
-	lol = log --graph --abbrev-commit --decorate --all --pretty=oneline
-	pf = push --force-with-lease
+  co = checkout
+  st = status
+  ci = commit
+  lol = log --graph --abbrev-commit --decorate --all --pretty=oneline
+  pf = push --force-with-lease
+  pr = push -u origin
   heads = branch --no-merge
   fixup = "!f() { TARGET=$(git rev-parse "$1"); git commit --fixup=$TARGET ${@:2} && EDITOR=true git rebase -i --autostash --autosquash $TARGET^; }; f"
 [core]
@@ -24,8 +25,6 @@
 [branch]
 	autosetupmerge = always
 	autosetuprebase = always
-[push]
-	default = upstream
 [gui]
 	commitmsgwidth = 72
 
