@@ -3,9 +3,10 @@
 # make local customisations on any specific system later on in the
 # .bashrc.
 
-export PATH=~/bin:$PATH
+export PATH=~/bin:~/.nimble/bin:$PATH
 export EDITOR=vim
-export PS1="\u @ \[\e[36m\]\w\[\e[m\]\\n\$ "
+export PS1="\u @ \[\e[36m\]\w\[\e[m\]\\n\[\e[36m\]➡ \[\e[m\] "
+export ERL_AFLAGS="-kernel shell_history enabled"
 
 alias g=git
 alias s="git status"
