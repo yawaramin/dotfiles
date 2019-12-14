@@ -1,7 +1,6 @@
 {
-    "editor.fontFamily": "Iosevka",
+    "editor.fontFamily": "Input",
     "editor.fontSize": 18,
-    "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
     "editor.tabSize": 2,
     "editor.rulers": [73],
@@ -16,11 +15,22 @@
         }
     ],
     "reason.diagnostics.tools": [
-        "bsb"
+        "merlin"
     ],
     "editor.quickSuggestions": {
         "other": false,
         "comments": false,
         "strings": false
-    }
+    },
+    "workbench.colorTheme": "Solarized Light",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.insertFinalNewline": true,
+    "editor.fontLigatures": true,
+    "workbench.editor.enablePreview": false,
+    "editor.formatOnSave": true,
+    "reason_language_server.autoRebuild": false,
+    "reason_language_server.useOldDuneProcess": false
 }

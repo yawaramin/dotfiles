@@ -85,7 +85,6 @@ nnoremap <C-Tab> :tabnext<CR>
 nnoremap ; :
 nnoremap Q gqap
 
-set background=dark
 hi ColorColumn ctermbg=black
 syntax on
 

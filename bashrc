@@ -5,7 +5,7 @@
 
 export PATH=~/bin:~/.nimble/bin:$PATH
 export EDITOR=vim
-export PS1="\u @ \[\e[36m\]\w\[\e[m\]\\n\[\e[36m\]➡ \[\e[m\] "
+export PS1="\u @ \[\e[36m\]\w\[\e[m\]\\n\[\e[36m\]-> \[\e[m\] "
 export ERL_AFLAGS="-kernel shell_history enabled"
 
 alias g=git
