@@ -94,11 +94,9 @@ autocmd BufEnter *.md setlocal ft=markdown
 autocmd BufEnter *.md setlocal tw=72
 autocmd Filetype python iabbrev <buffer> \ <BS>lambda
 
-" This requires the Solarized plugin.
 if has('gui_running')
-  let g:solarized_contrast="high"    "default value is normal
-  let g:solarized_visibility="high"    "default value is normal
   colorscheme solarized
-  set go-=T
+  set guifont=Input-Regular:h18
+  set linespace=2
 endif
 

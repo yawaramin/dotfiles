@@ -30,7 +30,12 @@
     "files.insertFinalNewline": true,
     "editor.fontLigatures": true,
     "workbench.editor.enablePreview": false,
-    "editor.formatOnSave": true,
     "reason_language_server.autoRebuild": false,
-    "reason_language_server.useOldDuneProcess": false
+    "reason_language_server.useOldDuneProcess": false,
+    "reason_language_server.dependencies_codelens": false,
+    "reason_language_server.opens_codelens": false,
+    "javascript.suggest.completeJSDocs": false,
+    "typescript.suggest.completeJSDocs": false,
+    "editor.defaultFormatter": "jaredly.reason-vscode",
+    "editor.lineNumbers": "interval"
 }
