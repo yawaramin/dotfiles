@@ -27,6 +27,8 @@
 	autosetuprebase = always
 [gui]
 	commitmsgwidth = 72
+[rebase]
+  updateRefs = true
 
 # vim:set ft=gitconfig:
 

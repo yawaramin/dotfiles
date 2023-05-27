@@ -1,10 +1,10 @@
 function! ToggleTextWidth()
-  if &textwidth == 72
+  if &textwidth == 80
     set textwidth=0
     echo "textwidth=0"
   else
-    set textwidth=72
-    echo "textwidth=72"
+    set textwidth=80
+    echo "textwidth=80"
   end
 endfunction
 
@@ -45,7 +45,7 @@ set wildmenu
 set wildignore=*.pyc
 set bs=indent,eol,start
 se hls
-set colorcolumn=73
+set colorcolumn=+1
 let mapleader="\<Tab>"
 nnoremap <Leader><space> :noh<CR>
 nnoremap <Leader>` :b#<CR>
@@ -85,13 +85,13 @@ nnoremap <C-Tab> :tabnext<CR>
 nnoremap ; :
 nnoremap Q gqap
 
-hi ColorColumn ctermbg=black
+hi ColorColumn ctermbg=lightgrey
 syntax on
 
-autocmd Filetype text set tw=72
+autocmd Filetype text set tw=80
 autocmd Filetype gitcommit set tw=72
 autocmd BufEnter *.md setlocal ft=markdown
-autocmd BufEnter *.md setlocal tw=72
+autocmd BufEnter *.md setlocal tw=80
 autocmd Filetype python iabbrev <buffer> \ <BS>lambda
 
 if has('gui_running')

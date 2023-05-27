@@ -1,22 +1,13 @@
 {
-    "editor.fontFamily": "Input",
-    "editor.fontSize": 18,
+    "editor.fontFamily": "Monaco",
+    "editor.fontSize": 16,
     "editor.minimap.enabled": false,
     "editor.tabSize": 2,
-    "editor.rulers": [73],
+    "editor.rulers": [81],
     "editor.cursorBlinking": "solid",
     "explorer.confirmDelete": false,
     "window.zoomLevel": 0,
     "explorer.confirmDragAndDrop": false,
-    "json.schemas": [
-        {
-            "fileMatch": ["bsconfig.json"],
-            "url": "https://bucklescript.github.io/bucklescript/docson/build-schema.json"
-        }
-    ],
-    "reason.diagnostics.tools": [
-        "merlin"
-    ],
     "editor.quickSuggestions": {
         "other": false,
         "comments": false,
@@ -28,14 +19,11 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "files.insertFinalNewline": true,
-    "editor.fontLigatures": true,
     "workbench.editor.enablePreview": false,
-    "reason_language_server.autoRebuild": false,
-    "reason_language_server.useOldDuneProcess": false,
-    "reason_language_server.dependencies_codelens": false,
-    "reason_language_server.opens_codelens": false,
+    "workbench.colorCustomizations": {
+        "editorError.foreground": "#ffffff",
+        "editorWarning.foreground": "#ffffff"
+    },
     "javascript.suggest.completeJSDocs": false,
-    "typescript.suggest.completeJSDocs": false,
-    "editor.defaultFormatter": "jaredly.reason-vscode",
-    "editor.lineNumbers": "interval"
+    "typescript.suggest.completeJSDocs": false
 }
