@@ -21,14 +21,20 @@
 [core]
 	autocrlf = false
 [diff]
+  algorithm = histogram
 	guitool = kdiff3
 [branch]
 	autosetupmerge = always
 	autosetuprebase = always
+  sort = -committerdate
 [gui]
 	commitmsgwidth = 72
 [rebase]
   updateRefs = true
+[pull]
+  rebase = true
+[commit]
+  verbose = true
 
 # vim:set ft=gitconfig:
 
