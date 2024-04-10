@@ -19,8 +19,8 @@ alias pf="git push --force-with-lease"
 alias poly="rlwrap poly" # PolyML
 alias csi="rlwrap csi" # Chicken Scheme
 
-ocs () {
-  esy b echo '\n' | ocamlmerlin single search-by-polarity -position 0 -query $1 | jq --raw-output '.value.entries[] | "\(.name) : \(.desc)"' | less
+function rm () {
+  mv "$@" /tmp
 }
 
 bal() {

@@ -5,21 +5,25 @@ How to use:
 ## Bashrc
 
     # ~/.bash_profile
-    source ~/src/dotfiles/bashrc
+    source ~/src/github.com/yawaramin/dotfiles/bashrc
 
 ## Gitconfig
 
     # ~/.gitconfig
     [include]
-      path = ~/src/dotfiles/gitconfig
+      path = ~/src/github.com/yawaramin/dotfiles/gitconfig
+
+## Utop init
+
+    cp ~/src/github.com/yawaramin/dotfiles/utop_init.ml ~/.config/utop/init.ml
 
 ## Vimrc
 
     " ~/.vimrc
-    so ~/src/dotfiles/vimrc
+    so ~/src/github.com/yawaramin/dotfiles/vimrc
 
 ## Vscode.json
 
     cd ~/Library/Application Support/Code/User
-    ln -s ~/src/dotfiles/vscode.json settings.json
+    ln -s ~/src/github.com/yawaramin/dotfiles/vscode.json settings.json
 
