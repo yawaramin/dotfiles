@@ -1,4 +1,6 @@
-﻿[user]
+﻿[fetch]
+  prune = true
+[user]
 	name = Yawar Amin
 	email = yawar.amin@gmail.com
 [merge]

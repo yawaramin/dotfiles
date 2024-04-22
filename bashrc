@@ -20,7 +20,10 @@ alias poly="rlwrap poly" # PolyML
 alias csi="rlwrap csi" # Chicken Scheme
 
 function rm () {
-  mv "$@" /tmp
+  for f in "$@"
+  do
+    mv -f "$f" "/tmp/$(basename $f)"
+  done
 }
 
 bal() {
