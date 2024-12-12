@@ -44,6 +44,8 @@
   verbose = true
 [rerere]
   enabled = true
+[remote]
+  pushDefault = origin
 
 # vim:set ft=gitconfig:
 
