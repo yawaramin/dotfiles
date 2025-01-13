@@ -46,6 +46,8 @@
   enabled = true
 [remote]
   pushDefault = origin
+[tig]
+  line-graphics = utf-8
 
 # vim:set ft=gitconfig:
 
